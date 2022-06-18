@@ -1,0 +1,67 @@
+.movie-list {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+.movie-list article {
+  background: #FFF;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.movie-list article p {
+  font-size: 16px;
+  color: #2e1349;
+  margin-top: 5px;
+  line-height: 24px;
+}
+
+.movie-list article a {
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid #2e1349;
+  background: none;
+  margin-top: 10px;
+  color: #2e1349;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0 0.4;
+}
+
+.movie-list article a:hover {
+  background: #2e1349;        
+  color: #fff;
+}
+
+.movie-list .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.movie-list .actions button {
+  padding: 14px;    
+  border-radius: 5px;
+  border: 0;
+  background: #2e1349;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.movie-list .actions button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.movie-list .actions button:hover { opacity: 0.7; }
+
+.movie-list .actions button[disabled]:hover { opacity: 0.5; }
